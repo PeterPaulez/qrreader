@@ -20,7 +20,7 @@ class ScanBar extends StatelessWidget {
           );
           */
           String barcodeScanRes = '';
-          barcodeScanRes = 'geo:45.280089,-75.922405';
+          barcodeScanRes = 'geo:45.287135,-75.920226';
           //barcodeScanRes = 'https://profurgol.com';
           if (barcodeScanRes == '-1') {
             return; // Usuario ha dado al botón cancelar
